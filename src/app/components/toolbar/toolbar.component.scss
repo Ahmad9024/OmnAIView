@@ -1,0 +1,47 @@
+.navbar-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--border-color);
+    padding: 0;
+    margin: 0;
+    height: 120px;
+    border-bottom: 2px solid var(--border-color);
+    background-color: var(--dark-background-color);
+
+    .logo {
+        height: 120px;
+    }
+
+    .ctrl_btn {
+        width: 30px;
+    }
+
+    .ctrl_btn {
+        display: inline;
+        margin:10px;
+        cursor: pointer;
+        transition: box-shadow 0.5s ease-in-out;
+        border-radius: 50%;
+    }
+    
+    .onBtn:hover {
+        box-shadow: 0 0 40px red;
+    }
+    .offBtn:hover {
+        box-shadow: 0 0 40px rgb(24, 255, 3);
+    }
+    .playBtn:hover {
+        box-shadow: 0 0 40px rgb(24, 255, 3);
+    }
+    .pauseBtn:hover {
+        box-shadow: 0 0 40px rgb(209, 255, 3);
+    }
+    .refreshBtn:hover {
+        box-shadow: 0 0 40px var(--font-color);
+    }
+
+
+}
+
+

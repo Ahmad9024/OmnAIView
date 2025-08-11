@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none" viewBox="0 0 50 50">
+  <path stroke="#222" d="m27 27-4 4 4 4"/>
+  <path stroke="#222" stroke-linecap="round" d="M31.062 20.5a7 7 0 0 1-6.937 10.445"/>
+  <path stroke="#222" d="m23 21 4-4-4-4"/>
+  <path stroke="#222" stroke-linecap="round" d="M18.938 27.5a7 7 0 0 1 7.158-10.414"/>
+  <g filter="url(#a)">
+    <circle cx="25" cy="25" r="25" fill="#313336"/>
+  </g>
+  <path stroke="#fff" d="m27.5 28.75-5 5 5 5"/>
+  <path stroke="#fff" stroke-linecap="round" d="M32.578 20.625a8.75 8.75 0 0 1-8.672 13.056"/>
+  <path stroke="#fff" d="m22.5 21.25 5-5-5-5"/>
+  <path stroke="#fff" stroke-linecap="round" d="M17.422 29.375a8.749 8.749 0 0 1 8.947-13.017"/>
+  <defs>
+    <filter id="a" width="50" height="54" x="0" y="0" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+      <feOffset dy="4"/>
+      <feGaussianBlur stdDeviation="2"/>
+      <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend in2="shape" result="effect1_innerShadow_22_820"/>
+    </filter>
+  </defs>
+</svg>

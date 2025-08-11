@@ -1,0 +1,22 @@
+section {
+    color: var(--font-color);
+    display: grid;
+    grid-template-columns:  40% 40% 20% ;
+    grid-template-areas: "h5 . li";    
+    background-color: var(--dark-background-color);
+    border-top: 2px solid var(--border-color);
+    padding: 20px;
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+
+    h5 {
+        margin: 20px;
+        grid-area: h5;
+    }
+    li{
+        grid-area: li; 
+        list-style-type: none; 
+        font-size: small;
+    }
+}

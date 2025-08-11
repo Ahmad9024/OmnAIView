@@ -1,0 +1,16 @@
+<section class="navbar-section">
+  <img  src="assets/OmnAIScope-logo.jpg " alt="logo" class="logo">
+  <div>
+    <span (click)="toggleConnection()">
+      <img *ngIf="onOffConnect" src="assets/On.svg" alt="On" class="ctrl_btn onBtn" title="Desconnect">
+      <img *ngIf="!onOffConnect" src="assets/Off.svg" alt="Off" class="ctrl_btn offBtn" title="Connect">
+    </span>
+    <ng-container *ngIf="onOffConnect">
+        <span (click)="toggleVisualization()" title="Toggle Visualization">
+          <img *ngIf="!visualizationStarted || isPaused"  title="Start" src="assets/Play.svg" alt=""  class="ctrl_btn playBtn">
+          <img *ngIf="visualizationStarted && !isPaused"  title="Pause" src="assets/Pause.svg" alt=""  class="ctrl_btn pauseBtn" >
+        </span>
+        <span  (click)="clearData()"  title="Refresh'Reset Data'"><img src="assets/Refresh.svg" alt=""  class="ctrl_btn refreshBtn"></span>
+    </ng-container>
+  </div>
+</section>
