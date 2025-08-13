@@ -20,15 +20,15 @@ Dieses Projekt bietet eine Datenvisualisierungsschnittstelle unter Verwendung de
 
   1. Klonen Sie das Repository:
 ```
-git clone 
+git clone https://github.com/ahmadXxOoo/OmnAIView.git
   ```
   2. Navigieren Sie zum Projektverzeichnis:
 ```
-cd 
+cd OmnAIView
   ```
   3. Installieren Sie die erforderlichen Abhängigkeiten:
 ```
-npm ci
+npm install
   ```
   4. Starten Sie den Entwicklungsserver:
 ```
@@ -39,19 +39,16 @@ ng serve
 http://localhost:4200
 
 ## Einrichten des WebSocket-Servers
-  1. Klonen Sie das Repository:
+
+  1. Navigieren Sie in das Projektverzeichnis:
 ```
-git clone 
-  ```
-  2. Navigieren Sie in das Projektverzeichnis:
+cd OmnAIView/websocket-Backend
 ```
-cd 
+2. Installieren Sie die erforderlichen Abhängigkeiten:
 ```
-3. Installieren Sie die erforderlichen Abhängigkeiten:
+npm install
 ```
-npm ci 
-```
-4. Starten Sie den Websocket-Server:
+3. Starten Sie den Websocket-Server:
 ```
 node server.js
 ```
