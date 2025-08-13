@@ -37,6 +37,7 @@ ng serve
   5. Öffnen Sie Ihren Browser und navigieren Sie zu 
 ```
 http://localhost:4200
+```
 
 ## Einrichten des WebSocket-Servers
 
